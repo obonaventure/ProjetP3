@@ -1,0 +1,124 @@
+Idées d'ajout :
+
+- Inclure des schéma d'explication pour expliquer les pointeurs/les structures
+- Inclure des liens vers les parties du syllabus concernées par chaque exercice
+  en plus de la documentation pour faciliter l'apprentissage
+
+[S2] "Printing Data"
+
+- difficulté avec le string format (%d, %s, %c) : où il faut l'intégrer et comment
+- confondent %s et %c (donc différence entre un pointeur vers un string et un char)
+- difficulté à lire la documentation (inclure des liens vers le syllabus ?)
+
+[S2] "Reading args"
+
+- souvent le include est oublié -> vérifier dans les tests ?
+- format de la sortie quand c'est faux à espacer pour pas avoir un gros texte
+- ajouter des tags
+
+[S2] "Palindrome"
+
+- format de la sortie : éviter les gros textes
+- difficulté entre ' ' et " "
+- imprimer les erreurs de compilation
+- rajouter un test pour contrer soumission Alexandre Hennecart (5c73e4d267)
+
+[S2] Les différents exercices sur les bits
+
+- imprimer ce qu'ils retournent vs attendu
+
+[S2] "Echange de valeurs de fractions"
+
+- remplacer "votre code ne compile pas" par quelque chose de plus précis
+- expliquer la différence entre -> et . pour les strucutres (schéma ?)
+
+[S2] "strlen, strcat, strcmpcase"
+
+- ajouter des tags
+- mettre le feedback par question et pas en global
+- imprimer résultat vs attendu
+- tests incomplets (voir 3e soumission et 4e soumission répertoriées ci-dessous)
+
+----------------------------------------------------------------------------------
+Soumissions des étudiants à tester :
+----------------------------------------------------------------------------------
+
+1) Printing Data : 
+	- Achille Morenville, dernière soumission (5c65e70f67)
+	- Nicolas Gennart, 26/02/2019 à 18:19 (5c75752a67)
+	- Jérôme Delforge, 17/02/2019 à 14:54 (5c69679967)
+	- Damien Van Meerbeeck, 23/02/2019 à 11:56 (5c7126e967)
+
+2) Reading Arguments :
+	- Alexis Cherpion, dernière soumission (5c652c3b67)
+	- Alexandre d'Argent, dernière soumission (5c89826e67)
+	- Baptiste Demuysère, dernière soumission (5c8bb95167)
+	- Benoit Raucq, 06/03/2019 à 22:43 (5c803f0667)
+
+3) Palindrome :
+	- Andres Fernandes, dernière soumission (5c77f45467)
+	- Omar Kraim, soumission correcte (5c76853d67)
+	- Pierre Crochelet, 12/03/2019 à 14:39 (5c87b68f67)
+	- Simon Dujardin, dernière soumission (5ce131af67)
+
+4) Bitwise operation: high order bits :
+	- Adam Abazi, dernière soumission (5c75781967)
+	- Barthélémy Hansart, 06/03/2019 à 12:35 (5c7fb09a67)
+	- Michel Croquet, 18/02/2019 à 16:58 (5c6ad61567)
+	- Cyril Grasseels, 23/02/2019 à 19:57 (5c71979367)
+
+5) Bitwise operation: extract low order bits :
+	- Adam Abazi, dernière soumission (5c75790a67)
+	- Adrien Banse, dernière soumission (5c7ba3cd67)
+	- Mathias Marques, 02/03/2019 à 16:03 (5c7a9b3c67)
+
+6) Strlen, strcat, strcasecmp :
+	- Alexandre Serrao, dernière soumission (5c86791a6)
+	- Johan Van Roy, avant-dernière sousmission (5c7155c167)
+	- Victor Fischer, 12/03/2019 à 17:19 (5c87dbfe67)
+	- Paul-Victor Coulon, avant-dernière soumission (5c83957567)
+
+-------------------------------------------------------------------------------
+Clarté des énoncés
+-------------------------------------------------------------------------------
+1) Printing Data :
+	- Ajouter le fait de dire qu'ils doivent consulter la doc
+
+2) Reading arguments :
+	- Ajouter une remarque disant explicitement qu'il n'y a pas d'espace
+	  après le dernier argument mais seulement le \n
+
+3) Palindrome :
+	- C'est clair
+
+4) Bitwise operation: high order bits :
+	- C'est clair
+
+5) Strlen, strcat, strcasecmp :
+	- Leur dire explicitement de regarder la documentation avant d'écrire
+
+--------------------------------------------------------------------------------
+Correspondance exercices-syllabus
+--------------------------------------------------------------------------------
+1) Printing data 
+	-> 2.1 : Le langage C, page 13
+
+2) Reading arguments 
+	-> 2.1 : Le langage C, page 12
+
+3) Palindrome 
+	-> 2.2.4 : Caractères et chaînes de caractères
+	-> 2.2.5 : Les pointeurs
+
+4) Bitwise operations (tous) 
+	-> 2.2.8 : Les expressions de manipulation de bits
+
+5) Swap my integers 
+	-> 2.2.5 : Les pointeurs
+
+6) Echange de valeurs de fractions 
+	-> 2.2.5 : Les pointeurs
+	-> 2.2.6 : Les structures
+
+7) strlen, strcat, strcasecmp
+	-> 2.2.5 : Les pointeurs
