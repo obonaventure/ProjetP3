@@ -11,3 +11,69 @@
 	-> Thibault Vereerstraeten, dernière soumission (5c8b771967)
 	-> Simon Iavarone, dernière soumission (5c7e4d5f67)
 	-> Ruben Gomes, première soumission (5c7ce28467)
+----------------------------------------------------------------------------------
+[S4] make basics - calculator 
+	- réexpliquer ce qu'est un target, une règle, etc.
+	- options -c et -o mal comprises
+	- dans la première question, plus clairement dire de ne faire que calc
+	- ajouter des tags si possible ? Et de meilleurs commentaires ?
+	- attention à l'indentation (faire absolument une tabulation)
+	- 2eme question le test ne regarde que un des deux ! A changer !
+	  -> voir dernière soumission de Cyprien Janssens de Bisthoven (5c7e55f067)
+
+	-> rajouter les liens de l'exercice précédent
+
+	-> Benoît Jacques, première soumission (5c8a83c867)
+	-> Cyprien Janssens de Bisthovenn, dernière soumission (5c7e55f067)
+	-> Julien Lienard, dernière soumission (5c87b70267)
+----------------------------------------------------------------------------------
+[S4] make basics - multiple choice questions
+	- Ajouter des retours plus précis, c'est un QCM donc il faut qu'ils
+	  apprennent des erreurs plutôt que d'essayer jusqu'à ce que ça fonctionne
+	- Changer la réponse "42" de la question 3
+	- placer cette tâche en premier car permet de mieux comprendre pour faire
+	  les autres exercices sur make par après
+	- ajouter les liens des autres exerices sur make
+	- ajouter des tags si possible
+
+	-> Tom Dubuisson, dernière soumission (5c890d3d67)
+	-> Rodrigo de Oliveira, première soumission (5c8395ce67)
+----------------------------------------------------------------------------------
+[S4] Simple stack
+	- memory leaks non détectés 
+	  -> Adrien Banse, dernière soumission (5c83e5ff67)
+	- il faut ajouter un exercice où il faut malloc plusieurs bytes de données
+	  sans que cela ne soit des char = 1 byte car bcp d'étudiants se trompent
+	  en faisant malloc(size * sizeof(char) + 1) ce qui serait incorrect si
+	  c'était des ints !
+	- le sizeof est tres mal maitrise
+	- egalité entre pointeur pour copier un string
+	- quand ils inversent return(0) et return(1) changer le message
+	  "your code returned an error code when normal" en "vous avez peut-être
+	  "inversé les deux"
+	- tests mauvais pour la deuxième question : les free pas du tout bons et
+	  pourtant l'étudiant a 100% 
+	   -> Audric Deckers, dernière soumission (5c8ac84e67)
+	
+	-> 2.5.4 : Le tas ou heap, pages 41, 42 et 43 (pour malloc)
+	-> 2.2.6 : Les structures
+	-> 2.2.5 : Les pointeurs
+
+	-> Adrien Banse, dernière soumission (5c83e5ff67)
+	-> Audric Deckers, dernière soumission (5c8ac84e67)
+	-> Johan Van Roy, dernière soumission (5c7fe65267)
+	-> Pierre Crochelet, dernière soumission (5c88dd9467)
+	-> Pierre-Louis Ponthiere, avant-dernière soumission (5d04f6a667)
+---------------------------------------------------------------------------------
+[S4] Comparing functions
+	- difficultés à comprendre ce qu'est véritablement un pointeur vers une fct
+	- ajouter un schéma/une explication à ce sujet
+
+	-> 2.2.5 : Les pointeurs
+
+	-> Dimitri Doeran, dernière soumission (5cb72b4f67)
+	-> Gégoire Lechien, première soumission (5c7652f067)
+	-> Emeline Christoph, 01/03/2019 à 11:37 (5c790b6967)
+---------------------------------------------------------------------------------
+[S4] Filtering a linked list
+	- inclure le fait de free les noeuds non choisis ?
