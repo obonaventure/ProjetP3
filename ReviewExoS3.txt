@@ -88,4 +88,115 @@ Clarté des énoncés
 
 13) Le programme test
 	- On peut confondre la différence entre 0 et 1 pour test et le C (true/f)
-	- On demande de ne pas faire juste une main ? Pourquoi ?	
+	- On demande de ne pas faire juste une main ? Pourquoi ?
+
+--------------------------------------------------------------------------------
+Liens avec le syllabus
+--------------------------------------------------------------------------------
+1) Count the '\0'
+	- Un lien les embrouillera plus qu'autre chose
+
+2) Global and local variables
+	- 2.3 : Déclarations
+	- Eventuellement 2.5 : Organisation de la mémoire
+
+3) Coder calloc en utilisant malloc
+	- 2.5.4 : Le tas ou heap, pages 41, 42 et 43 (pour malloc)
+
+4) Sleepy malloc
+	- 2.5.4 : Le tas ou heap, pages 41, 42 et 43 (pour malloc)
+
+5) Manipulate the memory
+	- 2.5.4 : Le tas ou heap, pages 41, 42 et 43 (pour malloc)
+
+6) Les types (1/2)
+	- 2.2 : Types de données
+
+7) Structures and pointers to structures
+	- 2.2.6 : Les structures
+
+8) Improved strcpy
+	- Le tas ou heap, pages 41, 42 et 43 (pour malloc)
+
+9) Pointer arithmetic
+	- 2.2.5 : Les pointeurs
+
+10) Simple linked list
+	- Pas de lien avec le syllabus
+
+11) Simple binary search tree
+	- 2.2.6 : Les structures
+
+12) Reading from the wire 
+	- Le tas ou heap, pages 41, 42 et 43 (pour malloc)
+
+13) Le programme test
+	- Pas de lien avec le syllabus
+
+-------------------------------------------------------------------------------
+Echantillons de soumissions pour l'intégration continue
+-------------------------------------------------------------------------------
+1) Count the '\0'
+	-> Hadrien Libioulle, dernière soumission (5c6bc6a867)
+	-> Lucas Silva, 22/02/2019 à 19:36 (5c70411367)
+	-> Merlin Camberlin, 21/02/2019 à 8:39 (5c6e55c267)
+
+2) Global and local variables
+	-> Achille Mathot, dernière soumission (5c6d145267)
+	-> Maciej Piotrowski, 04/03/2019 à 20:02 (5c7d763e67)
+	-> Martin Pasture, dernière soumission (5c8a797967)
+
+3) Coder calloc en utilisant malloc
+	-> Archibald Duerinck, dernière soumission (5c94fa0967)
+	-> Mathis Keirle, dernière soumission (5ce18fd967)
+	-> Pedro Cafi, 02/03/2019 à 11:28 (5c7a5ae467)
+
+4) Sleepy malloc
+	-> Zina Rasoamanana, dernière soumission (5c6eadd167)
+	-> Thibaud Misonne, 26/02/2019 à 11:35 (5c75166467)
+	-> Pierre Bastenier, première soumission (5c6a928567)
+
+5) Manipulate the memory
+	-> Julien Herman, dernière soumission (5c8102a067)
+	-> Johan Van Roy, 05/03/2019 à 11:49 (5c7e542567)
+	-> David Bodenghien, 13/03/2019 à 17:35 (5c89316c67)
+
+6) Les types (1/2)
+	-> Amadéo David, dernière soumission (5c6fdf4867)
+	-> Arnaud Bacq, avant-dernière soumission (5c781b7267)
+	-> Justin Ansotte, 14/03/2019 à 11:43 (5c8a304e67)
+
+7) Structures and pointers to structures
+	-> Adrien Banse, 03/03/2019 à 18:50 (5c7c13ce67)
+	-> Cyprien Janssens de Bisthoven, dernière soumission (5c83961667)
+	-> Nicolas Cruysberghs, avant-dernière soumission (5c76a1b167)
+
+8) Imroved strcpy
+	-> Théophile Schwaiger, dernière soumission (5c8a33da67)
+	-> Romain Graux, avant-dernière soumission (5c7abd3d67)
+	-> Simon Beauvois, 10/03/2019 à 16:58 (5c85341a67)
+
+9) Pointer arithmetic
+	-> Anas Aboukhalid, dernière soumission (5c7bbf0867)
+	-> Elliott Dubuisson, 20/02/2019 à 14:22 (5c6d54b367)
+	-> Kilian Maes, première soumission (5c6d6c7067)
+
+10) Simple linked list
+	-> Guillaume Cornette, deuxième soumission (5c7adf6367)
+	-> Justine Lemmens, dernière soumission (5c8b69f767)
+	-> Patriciu Vasile Vlaicu, 27/02/2019 à 11:49 (5c766b4d67)
+
+11) Simple binary Search Tree
+	-> Achille Morenville, dernière soumission (5c87e24867)
+	-> Justine Lemmens, dernière soumission (5c89233e67)
+	-> Romain Petit, 14/03/2019 à 12:34 (5c8a3c5f67)
+
+12) Reading from the wire
+	-> Zoé Schoofs, dernière soumission (5c7d4e6367)
+	-> Michel Croquet, première soumission (5c73f64b67)
+	-> Julien Herman, 10/03/2019 à 16:38 (5c852f6c67)
+
+13) Le programme test
+	-> Frédéric Deleval, dernière soumission (5c90b12467)
+	-> Benoît Gosselin, 13/03/2019 à 11:43 (5c88deea67)
+	-> Audric Deckers, première soumission (5c83ae2067)
