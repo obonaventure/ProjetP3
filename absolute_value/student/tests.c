@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "student_code.h"
-#include "CTester/CTester.h"
+#include "../../course/common/student/CTester/CTester.h"
 
 void test_absval_ret() {
 	set_test_metadata("absval", _("test the function absval"), 1);
