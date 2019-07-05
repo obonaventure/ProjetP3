@@ -6,6 +6,7 @@
 
 import subprocess, shlex, re, os, yaml
 from inginious import feedback, rst, input
+from xml.dom import minidom
 
 # Switch working directory to student/
 os.chdir("student")
@@ -64,6 +65,15 @@ LANG = input.get_input('@lang')
 p = subprocess.Popen(shlex.split("run_student --time 20 --hard-time 60 ./tests LANGUAGE={}".format(LANG)), stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
 o, e = p.communicate()
 print(o.decode("utf-8"))
+
+# CCCC (lines of code and complexity)
+subprocess.run(["cccc", "student_code.c", "--outdir=cccc"])
+xmldoc = minidom.parse('cccc/cccc.xml')
+lineslist = xmldoc.getElementsByTagName('lines_of_code')
+lines = lineslist[0].attributes['value'].value
+complist = xmldoc.getElementsByTagName('McCabes_cyclomatic_complexity')
+comp = complist[0].attributes['value'].value
+
 # If run failed, exit with "failed" result
 if p.returncode:
     feedback.set_global_result("failed")
