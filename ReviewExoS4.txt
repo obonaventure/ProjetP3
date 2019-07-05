@@ -1,0 +1,13 @@
+[S4] make basics
+	- ordre des arguments
+	- option -c incomprise (à cause du GNU, ils sont confus)
+	- indentation importante
+	- ajouter des tags si possible ? Et des commentaires plus approfondis ?
+
+	-> remplacer le lien GNU ou expliquer ce qu'il s'y passe avec le -c
+	-> ajouter des remarques pour les problèmes rencontrés ci-dessus
+	-> les liens utiles sont déjà présents
+
+	-> Thibault Vereerstraeten, dernière soumission (5c8b771967)
+	-> Simon Iavarone, dernière soumission (5c7e4d5f67)
+	-> Ruben Gomes, première soumission (5c7ce28467)
