@@ -1,0 +1,37 @@
+Liste des tags déjà utilisés :
+
+- Bad Args handling = "wrong return value when wrong args" (exo s3 count \0)
+- Bad next pointer = "the next pointer is not correctly initialised" (s3 linked list)
+- Bad node value = "the value of the node is not the expected one" (s3 linked list)
+- Banned functions
+- Close = "the tag validate that your close are correctly performed" (s5 reading integers)
+- Copy = "this tag validate you are able to copy a file" (s5 file copy)
+- Double Free
+- Error normal case = "your function returns an error in normal case" (exo s3 linked list)
+- Failure handling = "you do not manage failures properly during read operations" (s5 reading integers)
+- Floating Point Exception
+- Incorrect list = "the list does not correspond to the waited one" (s3 linked list)
+- make & MakeFile = "exercices relatifs à make"
+- Malloc fail = "you do not manage the case when malloc fails" (exo s3 structures)
+- Malloc fail handling = "wrong return value when malloc call fails" (s3 linked list)
+- Memory Exceeded
+- Modif list malloc fail = "the list was modified while the malloc fails" (s3 linked list)
+- Not allocated = "a new node is not allocated with malloc" (exo s3 linked list)
+- Not Compile
+- Not Freed
+- Not malloc once = "the malloc function was not called exactly once" (s3 linked list)
+- Open = "voir close"
+- Original file modified (s5 get and set)
+- Out of Bounds = "you try to read outside of the array" (s5 get and set)
+- Permission = "this tag validate that you are able to copy permission of a file" (s5 file copy)
+- SCRIPT ERROR = "erreur du script, ne devrait jamais apparaître" (s3 linked list)
+- Segmentation Fault
+- Sum = "the student has correctly computed and returned the sum" (s3 count \0)
+- Timeout
+- Too many read/write (s5 get and set)
+- Wrong allocation size = "you did not allocate the right amount of memory"
+- Wrong get value returned = "the get() function did not return the expected value" (s5 get and set)
+- Wrong index set = "a value at an unwanted index was modified" (s5 get and set)
+- Wrong list size = "the list has not the expected size" (s3 linked list)
+- Wrong malloc memory size = "the allocated memory doesn't have the correct size" (s3 linked list) 
+- Wront set value = "the value written in the file has not the correct value" (s5 get and set)
