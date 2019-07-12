@@ -27,7 +27,7 @@
 
 [S3] Pointer Arithmetic :
 	- difficulté à comprendre ce que change le type du pointeur sur
-	  l'opération "+"
+	  l'opération "+" -> schéma
 
 [S3] Improved strcpy :
 	- Ajouter une remarque "N'oubliez pas de vérifier le retour" si segfault

@@ -55,7 +55,6 @@ if banned_funcs:
             feedback.set_global_feedback("Vous utilisez la fonction {}, qui n'est pas autorisée.".format(func))
             exit(0)
 
-
 # Remove source files
 subprocess.run("rm -rf *.c *.tpl *.h *.o", shell=True)
 
@@ -66,13 +65,19 @@ p = subprocess.Popen(shlex.split("run_student --time 20 --hard-time 60 ./tests L
 o, e = p.communicate()
 print(o.decode("utf-8"))
 
+
 # CCCC (lines of code and complexity)
-subprocess.run(["cccc", "student_code.c", "--outdir=cccc"])
+
+subprocess.run("cccc student_code.c --outdir=cccc", shell=True)
 xmldoc = minidom.parse('cccc/cccc.xml')
+feedback.set_global_feedback("cccc1.\n")
 lineslist = xmldoc.getElementsByTagName('lines_of_code')
 lines = lineslist[0].attributes['value'].value
 complist = xmldoc.getElementsByTagName('McCabes_cyclomatic_complexity')
 comp = complist[0].attributes['value'].value
+
+feedback.set_global_feedback("cccc.\n")
+
 
 # If run failed, exit with "failed" result
 if p.returncode:
