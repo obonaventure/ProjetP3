@@ -76,4 +76,33 @@
 	-> Emeline Christoph, 01/03/2019 à 11:37 (5c790b6967)
 ---------------------------------------------------------------------------------
 [S4] Filtering a linked list
-	- inclure le fait de free les noeuds non choisis ?
+	- leur dire de créer une linked list secondaire à renvoyer
+	- mettent deux fois la tête au début (vérifier dans les tests)
+	- pas oublier de mettre le next à NULL (vérifier dans les tests)
+
+	-> 2.2.5 : Les pointeurs
+
+	-> Natacha Goux, 10/03/19 à 15:29 (5c851f5067)
+	-> Zoé Schoofs, dernière soumission (5c8533c867)
+	-> Olivier Cheffert, 02/03/19 à 15:48:34 (5c7a97c267)
+---------------------------------------------------------------------------------
+[S4] Advanced queue
+	- Head of the list par rapport au dessin pour que ça soit plus clair
+	- Pas grand chose à dire de plus, c'est du drill
+
+	-> 2.2.5 : Les pointeurs
+	-> 2.2.6 : Les structures
+
+	-> Chloé Chauvaux, 01/06/19 à 14:46 (5cf2738967)
+	-> Maxime Loudeche, dernière soumission (5c7e797367)
+	-> Lucas Maris, première soumission (5c75301667)
+---------------------------------------------------------------------------------
+[S4] Ordered linked list
+	- Drill sur les structures chaînées donc rien à dire de plus
+
+	-> 2.2.5 : Les pointeurs
+	-> 2.2.6 : Les structures
+
+	-> Damien Van Meerbeeck, dernière soumission (5c851ebd67)
+	-> Justine Lemmens, dernière soumission (5c7d94d267)
+	-> Achille Mathot, première soumission (5c85222167)
