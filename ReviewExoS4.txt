@@ -40,20 +40,12 @@
 	-> Rodrigo de Oliveira, première soumission (5c8395ce67)
 ----------------------------------------------------------------------------------
 [S4] Simple stack
-	- memory leaks non détectés 
-	  -> Adrien Banse, dernière soumission (5c83e5ff67)
 	- il faut ajouter un exercice où il faut malloc plusieurs bytes de données
 	  sans que cela ne soit des char = 1 byte car bcp d'étudiants se trompent
 	  en faisant malloc(size * sizeof(char) + 1) ce qui serait incorrect si
 	  c'était des ints !
 	- le sizeof est tres mal maitrise
 	- egalité entre pointeur pour copier un string
-	- quand ils inversent return(0) et return(1) changer le message
-	  "your code returned an error code when normal" en "vous avez peut-être
-	  "inversé les deux"
-	- tests mauvais pour la deuxième question : les free pas du tout bons et
-	  pourtant l'étudiant a 100% 
-	   -> Audric Deckers, dernière soumission (5c8ac84e67)
 	
 	-> 2.5.4 : Le tas ou heap, pages 41, 42 et 43 (pour malloc)
 	-> 2.2.6 : Les structures
