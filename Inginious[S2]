@@ -1,0 +1,112 @@
+[S2]
+Messages d'erreur -> \n
+Tags erreurs présents : 
+	-Timeout
+	-Segfault
+	-Not Compile
+	-Memory Exceeded
+	-Float Point Excep
+	-Double Free
+	-Banned Funct
+
+* Printing data
+	- difficulté avec printf/sprintf
+	- différence string/char (pointeur)
+* Reading Args 
+	- difficulté avec les petits détails (format : espace, point)
+	- implicit decaration -> include manquant
+* Palindrome 
+	- string " " et char ' '
+	- leur permettre d'imprimer sur la sortie
+
+/!\ Attention ajouter des tests contre Alexandre Hennequart 5c73e4d267
+
+* Bitwise : higher order (*) [Bit op]
+	- print leur valeur vs expected
+* Bitwise : lower order (*) [Bit op]
+	- print leur valeur vs expected
+
+Arno Geurts 
+	5ce5415f67
+	5ce5415267
+	5c6c062567 -> ok
+	5c6c061667 -> comp pas
+
+Francois Gouverneur 
+	5d07906167 -> ok
+	5d07905967
+	5c65a50d67
+
+* Bitwise : setting a bit (**) [Bit op]
+	- print leur valeur vs expected
+
+Johan Van Roy
+	5c6ed70767
+	5c6ed6d067
+	5c6ed45467
+
+Justine Pironnet 
+	5c6db8a067
+	5c6db74c67
+
+* Bitwise : cyclebits (*) ou (**) [Bit op]
+	- print leur valeur vs expected
+
+Francois Bernard Lima Costa
+	5c69322767
+	5c69317467
+Lorenzo Sonnino
+	5c5bf8b267
+	5c5bf92867
+Sarah Steeman
+	5c65938b67
+	5c658f9a67
+	5c658f2b67
+
+* Bitwise : counting set bits (*) [Bit op]
+	- print leur valeur vs expected
+
+Julien Herman
+	5c8b85f167 -> ok
+	5c7aeddf67
+	5c7aed2867
+	5c7aeb6b67
+Louis Daisomont
+	5c6ea9d167
+	5c6ea99467
+
+* Bitwise : resetting highest (*) ou (**) [Bit op]
+	- print leur valeur vs expected
+	- erreur dans énoncé "does nothing if there's no bit set to 0" (0=> 1)
+
+Alexis Cherpion
+	5c87225d67
+	5c871c9967
+Mathis Kerle
+	5ce161bf67
+	5c6b17fd67
+	5c6b195767 -> ok
+* Swap int (*) [Pointeur]
+	- print leur valeur vs expected
+
+Arthur Pisvin
+	5c6ab76167
+	5c667f7867
+	5c73f47c67 -> ok
+
+* Swap frac (**) [Pointeur] [Struct]
+	- erreurs de compilation -> imprimer les messages d'erreurs (werror -> warnings = errors)
+	- difficultés avec les structures
+	- Pas de tags
+
+Amadéo David 
+	5c83a2fa67
+	5c83a32b67 -> ok
+Félix Cornet
+	5c86690367
+* Strlen, Strcat (***) [Pointeur] [String]
+	- Pas de tags
+	- Afficher quel exo est réussi sur les 3
+	- print leur valeur vs expected
+
+Victor Fischer compare des sommes!!

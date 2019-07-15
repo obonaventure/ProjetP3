@@ -1,0 +1,33 @@
+[S3]
+* Count the '\0' (**) [String]
+	- Print leur valeurs vs expected
+
+Adrien Banse ~1 ~4
+Arnaud Gryson 25
+
+* Global and local variables (*) [Global/Local] [Pointeur] stack vs heap
+	- manque ';' dans l'énoncé
+	- inconsistent pour sum3 -> arguments
+Cyril Grasseels 
+Sacha Baum
+
+* Calloc avec malloc (***) [Mémoire] calloc2
+	- Erreur lors de l'exécution des tests -> + précis (permission denied ?)
+	- Pas de tags
+	- Différence entre '0' et 0
+Achille Mathot 2
+Archibald Duerinck
+
+* Sleepy Malloc (**) [Mémoire]
+	- Feedback pas correct (Augustin d'Oultremont) ptr != NULL -> ne rentre pas dans la boucle donc n'alloue rien
+
+Adam Abazi
+Augustin d'Oultremont 2
+
+* Manipulate the memory (***) [Mémoire] multi-free
+Achille Mathot 10
+Alexandre Hennequart 9
+Aymar de Brouchoven de Bergeyck 11
+Barthélémy Hansart 7
+
+* struct_cmp
