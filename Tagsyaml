@@ -103,9 +103,9 @@ basic_linked_list
         description: SCRIPT_ERROR - This tag should not appear. If it appears this
             is probably an error in the test suite of this task.
         visible: false
-    '12':
-        id: malloc_fail_memory_size
-        name: Wrong malloc memory size
+    '14':
+        id: wrong_alloc_size
+        name: Wrong allocation size
         description: The allocated memory doesn't have the correct size.
         type: 1
         visible: false
@@ -163,7 +163,12 @@ basic_linked_list
         type: 1
         name: Modif list malloc fail
         visible: false
-
+    '22':
+        description: Memory was allocated while the malloc() fails.
+        id: modif_memory_malloc_fail
+        type: 1
+        name: Modif memory malloc fail
+        visible: false
 SUBQUESTIONS
   '10': {description: q1 is correct, id: q1, name: Q1, type: 0, visible: false}
   '11': {description: q2 is correct, id: q2, name: Q2, type: 0, visible: false}
