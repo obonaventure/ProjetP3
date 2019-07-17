@@ -8,36 +8,19 @@ Idées d'ajout :
 
 - difficulté avec le string format (%d, %s, %c) : où il faut l'intégrer et comment
 - confondent %s et %c (donc différence entre un pointeur vers un string et un char)
-- difficulté à lire la documentation (inclure des liens vers le syllabus ?)
 
 [S2] "Reading args"
 
-- souvent le include est oublié -> vérifier dans les tests ?
 - format de la sortie quand c'est faux à espacer pour pas avoir un gros texte
-- ajouter des tags
 
 [S2] "Palindrome"
 
 - format de la sortie : éviter les gros textes
 - difficulté entre ' ' et " "
-- imprimer les erreurs de compilation
-- rajouter un test pour contrer soumission Alexandre Hennecart (5c73e4d267)
-
-[S2] Les différents exercices sur les bits
-
-- imprimer ce qu'ils retournent vs attendu
 
 [S2] "Echange de valeurs de fractions"
 
-- remplacer "votre code ne compile pas" par quelque chose de plus précis
 - expliquer la différence entre -> et . pour les strucutres (schéma ?)
-
-[S2] "strlen, strcat, strcmpcase"
-
-- ajouter des tags
-- mettre le feedback par question et pas en global
-- imprimer résultat vs attendu
-- tests incomplets (voir 3e soumission et 4e soumission répertoriées ci-dessous)
 
 ----------------------------------------------------------------------------------
 Soumissions des étudiants à tester :
@@ -77,26 +60,6 @@ Soumissions des étudiants à tester :
 	- Johan Van Roy, avant-dernière sousmission (5c7155c167)
 	- Victor Fischer, 12/03/2019 à 17:19 (5c87dbfe67)
 	- Paul-Victor Coulon, avant-dernière soumission (5c83957567)
-
--------------------------------------------------------------------------------
-Clarté des énoncés
--------------------------------------------------------------------------------
-1) Printing Data :
-	- Ajouter le fait de dire qu'ils doivent consulter la doc
-
-2) Reading arguments :
-	- Ajouter une remarque disant explicitement qu'il n'y a pas d'espace
-	  après le dernier argument mais seulement le \n
-
-3) Palindrome :
-	- C'est clair
-
-4) Bitwise operation: high order bits :
-	- C'est clair
-
-5) Strlen, strcat, strcasecmp :
-	- Leur dire explicitement de regarder la documentation avant d'écrire
-
 --------------------------------------------------------------------------------
 Correspondance exercices-syllabus
 --------------------------------------------------------------------------------

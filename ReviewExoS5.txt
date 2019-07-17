@@ -1,9 +1,4 @@
 [S5] File exists
-	-> Insister sur le fait qu'ils ne peuvent utiliser QUE open()
-	-> Insister sur le fait de lire la documentation (surtout les flags qu'ils
-	   peuvent utiliser avec open)
-	-> Leur expliquer ce que c'est filename ? (certains mettent "filename")
-	-> pas oublier de close le fichier
 
 	-> 5.2.1 : Utilisation des fichiers (sans open/write/lseek à enlever)
 
@@ -13,10 +8,6 @@
 ---------------------------------------------------------------------------------
 [S5] Reading integers in a binary file
 	-> importance du sizeof (mal compris)
-	-> expliquer ce qu'est véritablement un filename
-	-> changer les messages "you should call ____ only once" en deux catégories
-	   une s'ils appellent trop de fois et une si on ne l'a pas appelée
-	   (cela leur indiquera que le problème est avant l'appel par exemple)
 
 	-> 5.2.1 : Utilisation des fichiers (sans open/write/lseek)
 
@@ -25,10 +16,6 @@
 	-> Frédéric Deleval, avant-dernière soumission (5cf646b167)
 ---------------------------------------------------------------------------------
 [S5] Get and set on array stored in binary file
-	-> sizeof(filename) != stats du fichier
-	-> changer les messages "you should call ____ only once" en deux catégories
-	   une s'ils appellent trop de fois et une si on ne l'a pas appelée
-	   (cela leur indiquera que le problème est avant l'appel par exemple)
 
 	-> 5.2.1 : Utilisation des fichiers (sans open/write/lseek)
 ---------------------------------------------------------------------------------
@@ -37,14 +24,6 @@
 	   le tableau de structures pour pouvoir ne faire qu'un seul appel à write
 	   (certains essaient par exemple de faire une boucle sur toutes les struct
 	   tandis que d'autres font carrément une boucle sur chaque champ de chaque
-	   structure)
-	-> changer les messages "you should call ____ only once" en deux catégories
-	   une s'ils appellent trop de fois et une si on ne l'a pas appelée
-	   (cela leur indiquera que le problème est avant l'appel par exemple)
-	-> leur expliquer que sizeof(struct) peut être utilisé ?	   
+	   structure)	   
 
 	-> 5.2.1 : Utilisation des fichiers (sans open/write/lseek)
----------------------------------------------------------------------------------
-[S5] File Copy
-	-> Utile pour le projet ? Vu qu'il faut recopier dans un autre fichier, ce
-	   qui n'est possible qu'avec write() il me semble
