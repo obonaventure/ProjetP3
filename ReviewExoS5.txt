@@ -1,19 +1,11 @@
 [S5] File exists
 
 	-> 5.2.1 : Utilisation des fichiers (sans open/write/lseek à enlever)
-
-	-> Justin Dijon, première soumission (5c8b192967)
-	-> Justin Oliva, première soumission (5c7ead9b67)
-	-> Arno Geurts, 10/03/19 à 21:08 (5c856eb967)
 ---------------------------------------------------------------------------------
 [S5] Reading integers in a binary file
 	-> importance du sizeof (mal compris)
 
 	-> 5.2.1 : Utilisation des fichiers (sans open/write/lseek)
-
-	-> Achille Mathot, 13/03/19 à 00:08 (5c883bd867)
-	-> Augustin d'Oultremont, dernière soumission (5c8990a167)
-	-> Frédéric Deleval, avant-dernière soumission (5cf646b167)
 ---------------------------------------------------------------------------------
 [S5] Get and set on array stored in binary file
 
