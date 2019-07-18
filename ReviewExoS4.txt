@@ -1,44 +1,3 @@
-[S4] make basics
-	- ordre des arguments
-	- option -c incomprise (à cause du GNU, ils sont confus)
-	- indentation importante
-	- ajouter des tags si possible ? Et des commentaires plus approfondis ?
-
-	-> remplacer le lien GNU ou expliquer ce qu'il s'y passe avec le -c
-	-> ajouter des remarques pour les problèmes rencontrés ci-dessus
-	-> les liens utiles sont déjà présents
-
-	-> Thibault Vereerstraeten, dernière soumission (5c8b771967)
-	-> Simon Iavarone, dernière soumission (5c7e4d5f67)
-	-> Ruben Gomes, première soumission (5c7ce28467)
-----------------------------------------------------------------------------------
-[S4] make basics - calculator 
-	- réexpliquer ce qu'est un target, une règle, etc.
-	- options -c et -o mal comprises
-	- dans la première question, plus clairement dire de ne faire que calc
-	- ajouter des tags si possible ? Et de meilleurs commentaires ?
-	- attention à l'indentation (faire absolument une tabulation)
-	- 2eme question le test ne regarde que un des deux ! A changer !
-	  -> voir dernière soumission de Cyprien Janssens de Bisthoven (5c7e55f067)
-
-	-> rajouter les liens de l'exercice précédent
-
-	-> Benoît Jacques, première soumission (5c8a83c867)
-	-> Cyprien Janssens de Bisthovenn, dernière soumission (5c7e55f067)
-	-> Julien Lienard, dernière soumission (5c87b70267)
-----------------------------------------------------------------------------------
-[S4] make basics - multiple choice questions
-	- Ajouter des retours plus précis, c'est un QCM donc il faut qu'ils
-	  apprennent des erreurs plutôt que d'essayer jusqu'à ce que ça fonctionne
-	- Changer la réponse "42" de la question 3
-	- placer cette tâche en premier car permet de mieux comprendre pour faire
-	  les autres exercices sur make par après
-	- ajouter les liens des autres exerices sur make
-	- ajouter des tags si possible
-
-	-> Tom Dubuisson, dernière soumission (5c890d3d67)
-	-> Rodrigo de Oliveira, première soumission (5c8395ce67)
-----------------------------------------------------------------------------------
 [S4] Simple stack
 	- il faut ajouter un exercice où il faut malloc plusieurs bytes de données
 	  sans que cela ne soit des char = 1 byte car bcp d'étudiants se trompent
@@ -68,9 +27,6 @@
 	-> Emeline Christoph, 01/03/2019 à 11:37 (5c790b6967)
 ---------------------------------------------------------------------------------
 [S4] Filtering a linked list
-	- leur dire de créer une linked list secondaire à renvoyer
-	- mettent deux fois la tête au début (vérifier dans les tests)
-	- pas oublier de mettre le next à NULL (vérifier dans les tests)
 
 	-> 2.2.5 : Les pointeurs
 
@@ -80,7 +36,6 @@
 ---------------------------------------------------------------------------------
 [S4] Advanced queue
 	- Head of the list par rapport au dessin pour que ça soit plus clair
-	- Pas grand chose à dire de plus, c'est du drill
 
 	-> 2.2.5 : Les pointeurs
 	-> 2.2.6 : Les structures
@@ -90,7 +45,6 @@
 	-> Lucas Maris, première soumission (5c75301667)
 ---------------------------------------------------------------------------------
 [S4] Ordered linked list
-	- Drill sur les structures chaînées donc rien à dire de plus
 
 	-> 2.2.5 : Les pointeurs
 	-> 2.2.6 : Les structures

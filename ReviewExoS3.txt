@@ -1,95 +1,20 @@
 [S3] Le programme test :
-	- remplacer "votre code ne compile pas" par plus précis
-	- ajouter des tags
 	- difficulté avec les doubles pointeurs
-	- la fonction test retourne 0 pour vrai et 1 pour faux (inverse en C)
 
 [S3] Reading from the wire :
 	- difficulté avec les opérations sur les pointeurs (cast de char* à int*)
-	- ils ne comprennent pas qu'il faut appeler la fonction modem_read, on
-	  peut ajouter un retour dans les tests si buf est vide à la fin de la fct
-	- exercice à discuter car l'étudiant qui passe 5 tests sur 6 aura du mal
-	  à comprendre pourquoi (c'est une histoire de pages protégées en lecture
-	  et écriture qui lance une segfault lorsque 42 n'est pas dans le buffer
-	  mais lorsqu'il y est et que l'étudiant n'utilise pas la longueur du
-	  buffer avec modem_read et qu'il fait i<=256 ca fonctionne car on
-	  s'arrete avant)
 
 [S3] Simple Binary Search Tree :
 	- difficulté quand les pointeurs sont NULL (accès avant de vérifier)
-
-[S3] Simple linked list :
-	- ne réutilise pas les fonctions créées auparavant
-	- noeud suivant alloué alors qu'il doit être NULL
-	- vérifier la valeur de retour est != de s'assurer que malloc alloue en
-	  faisant une boucle
-	- vérifier qu'ils modifient bien size comme dit dans l'énoncé 
 
 [S3] Pointer Arithmetic :
 	- difficulté à comprendre ce que change le type du pointeur sur
 	  l'opération "+" -> schéma
 
-[S3] Improved strcpy :
-	- Ajouter une remarque "N'oubliez pas de vérifier le retour" si segfault
-	- "The allocated memory doesn't the correct size" à changer
-
 [S3] Strctures and pointers to structures :
 	- difficulté entre *ptr et ptr quand ptr est un char*
 	- difficulté pour le == entre string
 	- difficulté avec malloc (pas d'utilisation de casting) -> exo en plus ?
-
-[S3] Les types(1/2) :
-	- Ajouter des tags
-	- Remplacer "Erreur à la question x" par "Il ne faut pas de ; à cette
-	  question"
-	- Ajouter "N'oubliez pas le ; pour les déclarations"
-
---------------------------------------------------------------------------------
-Clarté des énoncés
---------------------------------------------------------------------------------
-1) Count the '\0'
-	- C'est clair
-
-2) Global and local variables
-	- C'est clair
-
-3) Coder calloc en utilisant malloc
-	- Ajouter "autrement dit, il faut lire la documentation"
-
-4) Sleepy malloc
-	- Corriger la faut d'anglais dans l'énoncé (phrase bizarre)
-	- Donner la fonction pour "sleep"
-
-5) Manipulate the memory
-	- C'est clair
-
-6) Les types (1/2)
-	- Ajouter une remarque "ne pas oublier les ; quand vous faites une décla"
-
-7) Structures and pointers to structures
-	- C'est clair
-
-8) Improved strcpy
-	- memcpy not allowed mais qu'en est-il pour strcpy ?
-
-9) Pointer arithmetic
-	- C'est clair
-
-10) Simple linked list
-	- C'est clair
-
-11) Simple binary search tree
-	- C'est clair
-
-12) Reading from the wire 
-	- Il faut utiliser modem_read ou non ?
-	- Les sorties des tests peuvent prêter à confusion (5/6 réussis alors que
-	  c'est totalement faux)
-
-13) Le programme test
-	- On peut confondre la différence entre 0 et 1 pour test et le C (true/f)
-	- On demande de ne pas faire juste une main ? Pourquoi ?
-
 --------------------------------------------------------------------------------
 Liens avec le syllabus
 --------------------------------------------------------------------------------
