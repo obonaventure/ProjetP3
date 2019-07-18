@@ -169,12 +169,26 @@ basic_linked_list
         type: 1
         name: Modif memory malloc fail
         visible: false
+    '9':
+        visible: false
+        id: failure_handling
+        description: You do not manage failures properly when a system call fails.
+        type: 1
+        name: Failure handling
 SUBQUESTIONS
   '10': {description: q1 is correct, id: q1, name: Q1, type: 0, visible: false}
   '11': {description: q2 is correct, id: q2, name: Q2, type: 0, visible: false}
   '12': {description: q3 is correct, id: q3, name: Q3, type: 0, visible: false}
 
 CATEGORIES
+
+BITWISE
+    '9':
+        visible: true
+        description: Task about bitwise operations
+        type: 2
+        name: Bitwise operation
+        id: 'category_bits'
 
 Pointer
   '9': {description: 'Task about pointers and their use', id: 'category_pointer', name: Pointer, type: 2, visible: true}
@@ -199,6 +213,21 @@ Malloc
         description: Task about malloc
         visible: true
         id: category_malloc
+FILES
+    '10':
+        visible: true
+        description: Task about files
+        type: 2
+        name: Files
+        id: 'category_files'
+MMAP, MUNMAP, MSYNC
+    '11':
+        visible: true
+        description: Task about mmap, munmap and msync
+        type: 2
+        name: Mmap
+        id: 'category_mmap'
+
 NIVEAU
 
     '11':
