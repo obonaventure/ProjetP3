@@ -1,0 +1,296 @@
+tags:
+    '0':
+        visible: false
+        description: q1 is correct
+        type: 0
+        name: Q1
+        id: q1
+    '1':
+        visible: false
+        description: q2 is correct
+        type: 0
+        name: Q2
+        id: q2
+    '2':
+        visible: false
+        description: q3 is correct
+        type: 0
+        name: Q3
+        id: q3
+    '3':
+        visible: false
+        description: q4 is correct
+        type: 0
+        name: Q4
+        id: q4
+    '4':
+        visible: false
+        description: q5 is correct
+        type: 0
+        name: Q5
+        id: q5
+    '5':
+        visible: false
+        description: q6 is correct
+        type: 0
+        name: Q6
+        id: q6
+    '6':
+        visible: false
+        description: q7 is correct
+        type: 0
+        name: Q7
+        id: q7
+    '7':
+        visible: false
+        description: q8 is correct
+        type: 0
+        name: Q8
+        id: q8
+    '8':
+        visible: false
+        description: q9 is correct
+        type: 0
+        name: Q9
+        id: q9
+    '9':
+        visible: false
+        description: q10 is correct
+        type: 0
+        name: Q10
+        id: q10
+    '10':
+        description: Your code exceeded the maximum allowed time.
+        id: timeout
+        name: Timeout
+        type: 1
+        visible: true
+    '11':
+        description: Your code produced a segmentation fault.
+        id: sigsegv
+        name: Segmentation Fault
+        type: 1
+        visible: true
+    '12':
+        description: Your code does not compile.
+        id: not_compile
+        name: Not compile
+        type: 1
+        visible: true
+    '13':
+        description: Your code exceeded the memory.
+        id: memory
+        name: Memory Exceeded
+        type: 1
+        visible: true
+    '14':
+        description: Your code produced a floating point exception.
+        id: sigfpe
+        name: Floating Point Exception
+        type: 1
+        visible: true
+    '15':
+        description: Your code produced a double free.
+        id: double_free
+        name: Double free
+        type: 1
+        visible: true
+    '16':
+        description: Your code used some banned functions.
+        id: banned_funcs
+        name: Banned functions
+        type: 1
+        visible: true
+    '17':
+        description: Your code does not compile with cppcheck.
+        id: cppcheck
+        name: Cppcheck fails
+        type: 1
+        visible: true
+    '18':
+        type: 1
+        id: not_malloc_once
+        description: The malloc() functions was not called exactly once.
+        name: Not malloc once
+        visible: false
+    '19':
+        id: wrong_alloc_size
+        name: Wrong allocation size
+        description: The allocated memory doesn't have the correct size.
+        type: 1
+        visible: false
+    '20':
+        type: 1
+        id: not_allocated
+        name: Not allocated
+        description: A new node is not allocated with malloc().
+        visible: false
+    '21':
+        name: Bad node value
+        id: bad_node_value
+        type: 1
+        description: The value of the node is not the expected one.
+        visible: false
+    '22':
+        name: Bad next pointer
+        description: The 'next' pointer is not correctly initialised
+        id: bad_next_pointer
+        type: 1
+        visible: false
+    '23':
+        description: Wrong return value when malloc call fails.
+        type: 1
+        name: Malloc fail handling
+        id: malloc_fail_handling
+        visible: false
+    '24':
+        description: Your function returns an error in normal case.
+        type: 1
+        id: error_normal_case
+        name: Error normal case
+        visible: false
+    '25':
+        type: 1
+        id: wrong_list_size
+        description: The list has not the expected size.
+        name: Wrong list size
+        visible: false
+    '26':
+        name: Bad Args handling
+        id: wrong_args_handling
+        type: 1
+        description: Wrong return value when wrong args.
+        visible: false
+    '27':
+        name: Incorrect list
+        id: not_expected_list
+        description: The linked list does not correspond to the waited one.
+        type: 1
+        visible: false
+    '28':
+        description: The list was modified while the malloc() fails.
+        id: modif_list_malloc_fail
+        type: 1
+        name: Modif list malloc fail
+        visible: false
+    '29':
+        description: Memory was allocated while the malloc() fails.
+        id: modif_memory_malloc_fail
+        type: 1
+        name: Modif memory malloc fail
+        visible: false
+    '30':
+        visible: false
+        id: failure_handling
+        description: You do not manage failures properly when a system call fails.
+        type: 1
+        name: Failure handling
+    '31':
+        description: ''
+        id: ''
+        name: S1
+        type: 2
+        visible: true
+    '32':
+        description: ''
+        id: ''
+        name: S2
+        type: 2
+        visible: true
+    '33':
+        description: ''
+        id: ''
+        name: S3
+        type: 2
+        visible: true
+    '34':
+        description: ''
+        id: ''
+        name: S4
+        type: 2
+        visible: true
+    '35':
+        description: ''
+        id: ''
+        name: S5
+        type: 2
+        visible: true
+    '36':
+        visible: true
+        name: Level 1
+        type: 2
+        description: 'Level 1'
+        id: 'level1'
+    '37':
+        visible: true
+        name: Level 2
+        type: 2
+        description: 'Level 2'
+        id: 'level2'
+    '38':
+        visible: true
+        name: Level 3
+        type: 2
+        description: 'Level 3'
+        id: 'level3'
+    '39':
+        visible: true
+        name: Level 4
+        type: 2
+        description: 'Level 4'
+        id: 'level4'
+    '40':
+        visible: true
+        name: Level 5
+        type: 2
+        description: 'Level 5'
+        id: 'level5'
+    '41':
+        visible: true
+        description: Task about bitwise operations
+        type: 2
+        name: Bitwise operation
+        id: category_bits
+    '42':
+        visible: true
+        description: Task about pointers and their use
+        type: 2
+        name: Pointer
+        id: category_pointer
+    '43':
+        visible: true
+        description: Task about structures and their use
+        type: 2
+        name: Struct
+        id: category_struct
+    '44':
+        visible: true
+        description: Task about string operations
+        type: 2
+        name: String
+        id: category_string
+    '45':
+        type: 2
+        description: Task about linked lists and their use
+        visible: true
+        name: Linked list
+        id: category_linkedlist
+    '46':
+        name: Malloc
+        type: 2
+        description: Task about malloc
+        visible: true
+        id: category_malloc
+    '47':
+        visible: true
+        description: Task about files
+        type: 2
+        name: Files
+        id: 'category_files'
+    '48':
+        visible: true
+        description: Task about mmap, munmap and msync
+        type: 2
+        name: Mmap
+        id: 'category_mmap'
+
