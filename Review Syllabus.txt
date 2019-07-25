@@ -1,0 +1,95 @@
+---------------------Endroit d'insertion des exercices----------------------------
+
+Pour chaque section, ordre = ordre de difficulté selon moi
+
+2.1 : Le langage C
+	-> s1_absval
+	-> s1_factorial
+	-> s1_tab_find
+	-> s2_printf
+	-> s2_main_argc
+
+2.2.4 : Caractères et chaînes de caractères
+	-> s2_strlen (pas spécialement besoin des pointeurs : accès avec [])
+	-> s2_strcat (attention pointeur s'ils ont pas encore lu)
+	-> s2_strcasecmp (pas spécialement besoin des pointeurs : accès avec [])
+	-> s3_count_zero (pas spécialement besoin des pointeurs : accès avec [])
+
+2.2.5 : Les pointeurs	
+	-> s2_swap2int
+	-> s2_palindrome
+
+2.2.6 : Les structures
+	-> s2_swap
+	-> s3_struct_cmp
+
+2.2.7 : Les fonctions
+	- s4_cmp_func
+
+2.2.8 : Les expressions de manipulation de bits
+	-> s2_bits_leftmost
+	-> s2_bits_rightmost
+	-> s2_bits_strong
+	-> s2_bits_sum
+	-> s2_bits_spin
+	-> s2_bits_set
+
+Fin de section 2.2 
+	-> s3_commandetest
+
+2.5.4 : Le tas (ou heap)
+	-> s3_strcpy
+	-> s3_sleep_malloc
+	-> s3_modem_read
+	-> s3_BST
+	-> s3_basic_linked_list
+	-> s3_calloc2
+	-> s4_simple_stack
+	-> s4_advanced_queue
+	-> s4_order_relation_linked_list
+	-> s4_linked_structs
+	-> s3_multi-free
+
+Fin de section 2.5
+	-> s3_stack_vs_heap
+
+2.6.1 : Pointeurs
+	-> s3_pointer_types
+	-> s3_types
+
+Fin de section 4.3 (ordre important car les exos sont liés)
+	-> s6_protect_variable
+	-> s6_protect_swap
+	-> s6_do_my_work
+	-> s6_shared_ressource
+
+5.2.1 : Utilisation des fichiers (en ajoutant mmap donc section 6.1.6)
+	-> s5_file_exists
+	-> s5_read_file_array_integer
+	-> s5_big_array_get_set
+	-> s5_file_save_struct
+	-> s5_file_copy
+	-> s6_sort_fractions
+
+------------------------------Sections à vérifier--------------------------------
+(selon mon humble avis)
+
+-> 2.2.2 : Nombres réels (à améliorer/rendre plus simple)
+-> 2.4 : Unions et énumérations (à supprimer car très rarement utilisés personnellement jusqu'à aujourd'hui donc je sais pas si c'est utile de leur apprendre ça)
+-> 2.5.5 : Les arguments et variables d'environnement (je ne sais pas s'ils en auront vraiment besoin donc selon moi c'est à supprimer)
+-> 2.6 : Compléments de C (à redistribuer dans d'autres sections, la section 2.6.1 avec les pointeurs ?, la 2.6.3 avec les fonctions ?, les grands programmes dans une nouvelle section ?)
+-> 3.1 : Organisation des ordinateurs (à supprimer, selon moi correspond à un cours de systinfo et pas au projet P3)
+-> 3.2 : Etude de cas : Architecture IA32 (à supprimer, idem)
+-> 4.1 : Utilisation de plusieurs threads (enlever le langage machine et autres subtilités)
+-> 4.3 : Coordination entre threads (idem)
+-> 4.4 : Les sémaphores (est-ce qu'ils en auront besoin ? normalement oui s'ils doivent faire un buffer partagé avec un producteur/consommateur, mais je notifie quand même)
+-> 4.5 : Compléments sur les threads POSIX (à part peut-être 4.5.3, à supprimer)
+-> 4.6 : Loi de Amdahl (pour la culture générale c'est bien mais peut-être que ça a plus sa place dans un cours de systinfo)
+-> 4.7 : Les processus (à supprimer, trop difficile pour un cours commun)
+-> 5.1 : Gestion des utilisateurs (selon moi à supprimer, pas sûr que ça ait sa place dans le cadre du projet)
+-> 5.2 : Système de fichiers (trop difficile selon moi, tout ce qui est avant 5.2.1 à supprimer)
+-> 5.2.2 : Les pipes (à supprimer, pas utile dans le projet)
+-> 5.3 : Signaux (à supprimer, trop difficile, peut-être garder une partie pour qu'ils sachent ce que sont les erreurs qu'ils reçoivent dans les exercices)
+-> 5.4 : Sémaphores nommés (à supprimer, pas utile dans le projet)
+-> 5.5 : Partage de fichiers (à recadrer sur msync peut-être ? mais tout ce qui est inode etc. à supprimer)
+-> 6.1 : La mémoire virtuelle (tout à "supprimer" dans le sens où on veut juste mmap mais pas savoir ce qu'il se passe derrière)

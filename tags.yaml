@@ -293,4 +293,10 @@ tags:
         type: 2
         name: Mmap
         id: 'category_mmap'
+    '49':
+        visible: true
+        description: Task about threads
+        type: 2
+        name: Threads
+        id: 'category_thread'
 
