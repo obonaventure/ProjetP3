@@ -69,7 +69,7 @@ Fin de section 4.3 (ordre important car les exos sont liés)
 	-> s5_big_array_get_set
 	-> s5_file_save_struct
 	-> s5_file_copy
-	-> s6_sort_fractions
+	-> s6_sort_my_points
 
 ------------------------------Sections à vérifier--------------------------------
 (selon mon humble avis)
